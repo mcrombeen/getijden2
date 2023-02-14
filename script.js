@@ -6,7 +6,7 @@ var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 document.getElementById("date").innerHTML = date;
 
 // Load the JSON data
-fetch('data.json')
+fetch('Antwerpen_Februari.json')
     .then(response => response.json())
     .then(data => {
         // Get the data for the current date
